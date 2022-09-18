@@ -1,0 +1,12 @@
+{
+  "name": "templateforjestandts",
+  "version": "1.0.0",
+  "description": "Templejt za TypeScript i Jest",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": ["typescript","jest"],
+  "author": "Milan Micic",
+  "license": "ISC"
+}
