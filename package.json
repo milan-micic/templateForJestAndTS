@@ -4,7 +4,9 @@
   "description": "Templejt za TypeScript i Jest",
   "main": "src/app.ts",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watch",
+    "testFile": "jest ----findRelatedTests .test/*.spec.ts",
+    "testName": "jest -t 'Pozdravlja uneto ime'"
   },
   "keywords": ["typescript","jest"],
   "author": "Milan Micic",
